@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 export default function Contact() {
   const ContactFormSubmit = (e) => {
-    // e.preventDefault();
+    e.preventDefault();
     emailjs.sendForm(
       'service_dhkj8hl',
       'template_nb40a2k',
