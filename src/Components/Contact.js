@@ -284,15 +284,15 @@ export default function Contact() {
             <form action="" onSubmit={ContactFormSubmit}>
               <h3>Send Message</h3>
               <div className="inputBox">
-                <input type="text" name='name' required="required" />
+                <input type="text" name='name' required="required" id="Name" />
                 <samp>Full Name</samp>
               </div>
               <div className="inputBox">
-                <input type="email" name='email' required="required" />
+                <input type="email" name='email' required="required" id="Email" />
                 <samp>Your Email</samp>
               </div>
               <div className="inputBox">
-                <textarea name="message" required="required"></textarea>
+                <textarea name="message" required="required" id="Text"></textarea>
                 <samp>Type Your Message</samp>
               </div>
               <div className="inputBox">
