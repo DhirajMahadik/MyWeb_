@@ -6,19 +6,24 @@ export default function Contact() {
   const ContactFormSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm(
-      'service_dhkj8hl',
-      'template_nb40a2k',
-      e.target,
-      'oycCgHMu5Ym_14Jou'
+            'service_dhkj8hl',
+            'template_nb40a2k',
+            e.target,
+            'oycCgHMu5Ym_14Jou'
     ).then(res => {
-      console.log(res);
+//       console.log(res);
       emailjs.sendForm(
-        'service_dhkj8hl',
-        'template_t603z1r',
-        e.target,
-        'oycCgHMu5Ym_14Jou'
+        
+            'service_dhkj8hl',
+            'template_t603z1r',
+            e.target,
+            'oycCgHMu5Ym_14Jou'
       ).then(res => {
-        console.log(res);
+        
+            document.getElementById('Name').value = "";
+            document.getElementById('Email').value = "";
+            document.getElementById('Text').value = "";
+        
       }).catch(err => console.log(err));
     }).catch(err => console.log(err));
 
