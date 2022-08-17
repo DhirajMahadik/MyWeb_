@@ -187,7 +187,7 @@ export default function Skliss() {
     .cardBox{
         width: 90vw;
         height: 100%;
-        margin: 1px 100px 300px  ;
+        margin: 56px auto;
         display: flex;
         padding-top: 200px;
         
