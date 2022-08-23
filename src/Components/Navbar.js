@@ -90,7 +90,7 @@ export default function Navbar(props) {
   `;
 
   return (
-    <Nav className='navbar'>
+    <Nav className='navbar sticky-top'>
       <h2 className="logo">D<span>M</span></h2>
       <ul>
         <li><Link to="/">Home</Link></li>
