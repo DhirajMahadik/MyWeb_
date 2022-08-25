@@ -179,15 +179,16 @@ export default function Skliss() {
     .skils h3{
         text-align: center ;
         padding-top: 20px;
-        margin: 25px auto;
+        margin: -3px auto;
         color: gold;
+        font-size: 25px;
         font-weight: 900;
     }
 
     .cardBox{
         width: 90vw;
         height: 100%;
-        margin: 56px auto;
+        margin: 1px 100px 300px  ;
         display: flex;
         padding-top: 200px;
         
@@ -196,21 +197,24 @@ export default function Skliss() {
     
     
     .skils{
-        background-color: #858585;
+        background-color: #191919;
         width: 200px;
         height: 200px;
         display: inline-block;
         margin: auto;
-        box-shadow: 0 0 30px rgb(0.3,0.3,0.3,0.3 );
-        border-radius: 10px;
+       box-shadow: 0 0 30px rgb(230 221 221 / 30%);
+        border-radius: 50%;
         position: relative;
         
         
     }
     
     .skils:hover{
-        background-color: #f20f0f;
+        background-color: #000;
         box-shadow: 0 0 50px  rgb(255 255 255 /100%);
+        h3{
+            color : #f20f0f;
+        }
     }
 
     .Skil_icon{
@@ -220,7 +224,7 @@ export default function Skliss() {
         display: flex;
         justify-content: center;
         align-items: center;
-        color: gold;
+        margin-top: 40px;
         border-radius: 50%;
         font-size: 59px;
     } 
@@ -237,8 +241,14 @@ export default function Skliss() {
 		 margin: 45px auto;
 
 	}
+
+    .Skil_icon{
+        margin-top: 30px;
+    }
+
     .skils h3{
-		margin: 10px auto;
+        margin: -13px auto;
+        font-size: 18px;
 	}
     #Skil-Heading{
         font-size:20px;
@@ -258,10 +268,15 @@ export default function Skliss() {
 
 	}
     .skils h3{
-		margin: 10px auto;
+		margin: -13px auto;
+        font-size: 18px;
 	}
     #Skil-Heading{
         font-size:30px;
+    }
+
+    .Skil_icon{
+        margin-top: 30px;
     }
 }
 `;
@@ -278,7 +293,8 @@ export default function Skliss() {
                         <h2>About <samp>Me</samp></h2>
                         <h5>Developer <span>& Designer</span></h5>
                         <p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the
-                            website more & more interactive with web animations. A responsive design
+                            website more & more interactive with web animations.I can provide clean code and pixel perfect
+                            design. I also make the website more & more interactive with web animations.A responsive design
                             makes your website accessible to all users, regardless of their device.</p>
                         
                             <a href="https://api.whatsapp.com/send/?phone=919284593357&text&app_absent=0" target="_blank" rel="noreferrer">
@@ -298,36 +314,39 @@ export default function Skliss() {
                     <div className="cardBox">
 
                         <div className="skils " >
-                            <h3>JavaScript</h3>
-
-                            <div className="Skil_icon" >
+                            <div className="Skil_icon" style={{color:"yellow"}} >
                                 <i className="fa-brands fa-js"></i>
                             </div>
+                            <h3>JavaScript</h3>
                         </div>
                         <div className="skils ">
-                            <h3>React</h3>
-                            <div className="Skil_icon" >
+                            
+                            <div className="Skil_icon"style={{color:"#61dbfb"}} >
                             <i className="fa-brands fa-react"></i>
                             </div>
+                            <h3>React</h3>
                         </div>
 
                         <div className="skils " >
-                            <h3 >HTML</h3>
-                            <div className="Skil_icon" >
+                           
+                            <div className="Skil_icon" style={{color:"#e34c26"}} >
                             <i className="fa-brands fa-html5"></i>
                             </div>
+                            <h3 >HTML</h3>
                         </div>
                         <div className="skils ">
-                            <h3>CSS</h3>
-                            <div className="Skil_icon" >
+                            
+                            <div className="Skil_icon" style={{color:"#264de4"}} >
                             <i className="fa-brands fa-css3-alt"></i>   
                             </div>
+                            <h3>CSS</h3>
                         </div>
                         <div className="skils ">
-                            <h3>Bootstrap</h3>
-                            <div className="Skil_icon" >
+                           
+                            <div className="Skil_icon" style={{color:"#563d7c"}} >
                             <i className="fa-brands fa-bootstrap"></i>  
                             </div>
+                            <h3>Bootstrap</h3>
                         </div>
 
                     </div>
