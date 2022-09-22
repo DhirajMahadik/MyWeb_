@@ -94,7 +94,6 @@ export default function Navbar(props) {
       <h2 className="logo">D<span>M</span></h2>
       <ul>
         <li><Link to="/">Home</Link></li>
-        <li><a href="#service">{props.service}</a></li>
         <li><Link to="/skills">About & Skilss</Link></li>
         <li><Link to="/contact">Contact me</Link></li>
       </ul>
