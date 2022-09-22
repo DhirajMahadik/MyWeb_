@@ -234,7 +234,10 @@ export default function Home() {
             {/* <!------Contact Me------> */}
             <Contact className="contact-me">
                 <p>Let Me Get You A Beautiful Website.</p>
-                <a className="button-two" href="https://drive.google.com/file/d/1DSJBxGMXZ_1Vr84fv3xJlH5no_eOiZvx/view?usp=sharing" target="blank">Hire Me</a>
+                <div className='d-flex'>
+                <a className="button-two mx-2" href="https://drive.google.com/file/d/1j6tK1BBdBLfYlxu2K4nyeSfUCsx3hmw4/view?usp=sharing" target="blank">Hire Me</a>
+                <a className="button-two" href="https://github.com/DhirajMahadik" target="blank">Portfolio</a>
+                </div>
             </Contact>
         </>
     )
