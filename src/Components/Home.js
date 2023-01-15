@@ -6,6 +6,7 @@ import background from './bg1.jpg';
 export default function Home() {
 
     const ContainerFuild = styled.div`
+    /* position: absolute; */
     background-image: url(${background});
 	height: 100vh;
 	background-size: cover;

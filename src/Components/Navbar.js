@@ -4,99 +4,62 @@ import styled from 'styled-components'
 
 export default function Navbar(props) {
 
-  const Nav = styled.nav`
-  height: 55px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: top 30px;
-	padding-left: 3%;
-	padding-right: 2%;
-	background-color:black;
-	border: none;
-  flex-wrap: nowrap;
-  
-  .logo{
-    color: white;
-    font-size: 35px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    font-weight:900;
-    margin-top: 9px
-  }
-  span{
-    color: #f20f0f;
-  }
+  const Header = styled.nav`
 
-  ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px;
+  nav{
+    background-color: black;
     
-  }
+    .navbar-brand{
+      color: #fff;
+      font-weight: 800;
+      font-style: italic;
+      margin-left: 20px;
+      font-size: 26px;
+      padding: 0;
 
-  ul{
-      margin-bottom:0px;
-  }
-
-  ul li a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: capitalize;
-  }
-  ul li a:hover{
-    color:#f20f0f ;
-    transition: .4s;
-  }
-
-  @media (max-width: 580px){
-
-    flex-direction: row; 
-		flex-wrap: nowrap;
-    height: 50px;
-    margin-right:0px;
-    padding-left: 0; 
-    padding-right: 0;
-
-    .logo{
-      font-size: 25px;
-      margin-left:15px;
-    }
-      
-    ul{
-      display: flex;
-      width: 280px;
-      margin-left:26px;
-      padding-left:0px;
-      
-
+      span{
+        color: #f20f0f ;
+      }
     }
 
-    ul li{
-      padding: 5px 8px;
-      font-size: 15px;
+    .collapse{
+      /* justify-content: end; */
+
+      .nav-link{
+        color: #fff;
+      }
     }
 
-    ul li a{
-      font-size: 10px;
-    }
   }
 
-  @media (max-width: 850px), (min-width: 450px){
-
-  }
- 
   `;
 
   return (
-    <Nav className='navbar sticky-top'>
-      <h2 className="logo">D<span>M</span></h2>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/skills">About & Skilss</Link></li>
-        <li><Link to="/contact">Contact me</Link></li>
-      </ul>
-    </Nav>
+    <Header>
+      <nav className="navbar navbar-expand-lg ">
+        <div className="container-fluid">
+          <Link className="navbar-brand" to="/">D <span>M</span></Link>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/skills">skills</Link>
+              </li>
+
+              <li className="nav-item">
+                <Link className="nav-link " to="/contact">Contact</Link>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </Header>
+
   )
 }
