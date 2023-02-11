@@ -4,36 +4,6 @@ import styled from 'styled-components'
 
 export default function Navbar(props) {
 
-  const Header = styled.nav`
-
-  /* nav{
-    background-color: black;
-    
-    .navbar-brand{
-      color: #fff;
-      font-weight: 800;
-      font-style: italic;
-      margin-left: 20px;
-      font-size: 26px;
-      padding: 0;
-
-      span{
-        color: #f20f0f ;
-      }
-    }
-
-  
-     
-
-      .nav-link{
-        color: #fff;
-      }
-    
-
-  } */
-
-  `;
-
   return (
     <Header>
       <nav className="navbar navbar-expand-lg ">
@@ -63,3 +33,30 @@ export default function Navbar(props) {
 
   )
 }
+
+
+const Header = styled.header`
+
+  nav{
+    background-color: black;
+    
+    .navbar-brand{
+      color: #fff;
+      font-weight: 800;
+      font-style: italic;
+      margin-left: 20px;
+      font-size: 26px;
+      padding: 0;
+
+      span{
+        color: #f20f0f ;
+      }
+    }
+      .nav-link{
+        color: #fff;
+      }
+    
+
+  }
+
+  `;
