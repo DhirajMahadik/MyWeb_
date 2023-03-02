@@ -70,7 +70,7 @@ export default function Footer() {
                         <a href="https://www.instagram.com/dhiraj_dm.js/" target="blank" rel="noreferrer"><i className="fab fa-instagram" ></i></a>
                         <a href="https://api.whatsapp.com/send/?phone=919284593357&text&app_absent=0" target="blank" rel="noreferrer"><i className="fab fa-whatsapp"></i></a>
                     </div>
-                    <p className="end">Copy Right By Dhiraj Mahadik</p>
+                    <p className="end">Dhiraj Mahadik</p>
                 </Wrapper>
 
     </div>

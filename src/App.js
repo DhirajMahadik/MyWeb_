@@ -8,6 +8,7 @@ import Footer from './Components/Footer';
 import LandingPagePlan from './Components/LandingPagePlan';
 import PersonalPlan from './Components/PersonalPlan';
 import ComercialPlan from './Components/ComercialPlan';
+import Portfolio from './Components/Portfolio';
 function App() {
   return (
      
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/landingPage_plane" element={<LandingPagePlan />}/>  
           <Route exact path="/personal_plane" element={<PersonalPlan/>}/>
           <Route exact path="/comercial_plane" element={<ComercialPlan/>}/>
+          <Route exact path="/portfolio" element={<Portfolio/>}/>
           
         </Routes>
         <Footer/>

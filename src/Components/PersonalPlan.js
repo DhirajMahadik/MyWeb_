@@ -94,13 +94,13 @@ export default function PersonalPlan () {
             <li>Design + Development.</li>
             <li>Fully responsive.</li>
             <li>Unlimited Images.</li>
-            <li>Upto four webpages ( Then after Rs.1999/- per page.)</li>
-            <li>Domain name  (Optional - The price will be  as per  your domain name. )</li>
-            <li>Hosting  (Optional - The price will be as per  your requirements. ) </li>
-            <li>Maintenance (Optional - Rs.2499/- per year)</li>
+            <li>Upto four webpages </li>
+            <li>Domain name </li>
+            <li>Hosting  </li>
+            <li>Maintenance </li>
           </ul>
-          <h3 style={{background:"white", color:"black"}}>Basic Plan : <b>Rs.9999/-</b> ( Maintenance - Rs.2499/- per year [Optional]   )</h3>
-          <h3 style={{background:"white", color:"black"}}>Standerd Plan : <b>Rs.11999/-</b> + Domain and Hosting ( Maintenance - Rs.2499/- per year [Optional]   )</h3>
+          {/* <h3 style={{background:"white", color:"black"}}>Basic Plan : <b>Rs.9999/-</b> ( Maintenance - Rs.2499/- per year [Optional]   )</h3>
+          <h3 style={{background:"white", color:"black"}}>Standerd Plan : <b>Rs.11999/-</b> + Domain and Hosting ( Maintenance - Rs.2499/- per year [Optional]   )</h3> */}
 
         </div>
         

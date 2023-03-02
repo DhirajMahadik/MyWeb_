@@ -99,12 +99,12 @@ export default function ComercialPlan() {
           <li>Unlimited Images.</li>
           <li>Unlimited webpages.</li>
           <li>Other features as per requirements.</li>
-          <li>Domain name  (At free of cost upto Rs.1000/-. )</li>
-          <li>Hosting  (Optional - The price will be as per  your requirements. ) </li>
-          <li>Maintenance (Optional - Rs.4999/- per year)</li>
+          <li>Domain name </li>
+          <li>Hosting  </li>
+          <li>Maintenance </li>
         </ul>
-        <h3 style={{background:"white", color:"black"}}>Basic Plan : <b>Rs.19999/-</b> ( Maintenance - Rs.4999/- per year [Optional]   )</h3>
-        <h3 style={{background:"white", color:"black"}}>Standerd Plan :<b>Rs.24999/-</b>  + Domain and Hosting ( Maintenance - Rs.4999/- per year [Optional]   )</h3>
+        {/* <h3 style={{background:"white", color:"black"}}>Basic Plan : <b>Rs.19999/-</b> ( Maintenance - Rs.4999/- per year [Optional]   )</h3>
+        <h3 style={{background:"white", color:"black"}}>Standerd Plan :<b>Rs.24999/-</b>  + Domain and Hosting ( Maintenance - Rs.4999/- per year [Optional]   )</h3> */}
 
       </div>
       

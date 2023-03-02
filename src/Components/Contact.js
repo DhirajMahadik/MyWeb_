@@ -1,4 +1,4 @@
-import Navbar from './Navbar'
+
 import emailjs from 'emailjs-com'
 import styled from 'styled-components';
 
@@ -32,7 +32,7 @@ export default function Contact() {
 
   const  Contact = styled.section`
   position: relative;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   padding: 50px 100px;
   display: flex;
   justify-content: center;
@@ -242,10 +242,10 @@ export default function Contact() {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Contact className="contact">
         <div className="contentt">
-          <h3>Contact Me</h3>
+          {/* <h3>Contact Me</h3> */}
           <p>Feel free to contact me i will get back to you as soon as possible.... </p>
         </div>
         <div className="container">
