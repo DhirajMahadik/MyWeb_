@@ -166,7 +166,7 @@ export default function Skliss() {
       margin-top: 50px;
       font-size: 40px;
       font-weight: 900;
-      font-family: cursive;
+      
       color: gold;
       text-shadow: 0 0 50px rgb(255, 255, 255);
     }
