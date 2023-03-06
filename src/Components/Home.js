@@ -53,7 +53,7 @@ export default function Home() {
       color: #f20f0f;
       font-size: 50px;
       font-weight: 900;
-      font-family: cursive;
+      
       margin: 20px auto;
       text-align: center;
     }
