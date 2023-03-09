@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Navbar from "./Navbar";
 import mymessIMG from './imges/Homepage.png'
-// import RestaurantIMG from './imges/Restaurant.jpg'
+import digitalDiary from './imges/digitalDiary.png'
 
 const Portfolio = () => {
   return (
@@ -44,21 +44,21 @@ const Portfolio = () => {
             </div>
           </div>
 
-          {/* <div className="col-md-4">
+          <div className="col-md-4">
             <div className="card m-auto" >
-              <img src={RestaurantIMG} className="card-img-top" alt="..." />
+              <img src={digitalDiary} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Resturant landing page</h5>
+                <h5 className="card-title">Digital Diary </h5>
                 <p className="card-text">
-                  A simple landing page of resturant.
+                 <strong>Currently working on this project.</strong> 
                 </p>
                 <br/>
-                <a href="/" target="_blank" rel="noreferrer" className="btn btn-sm btn-warning">
+                <a href="https://digitaldiary-bydhiraj.netlify.app/" target="_blank" rel="noreferrer" className="btn btn-sm btn-warning">
                 View Project
                 </a>
               </div>
             </div>
-          </div> */}
+          </div>
 
           {/* <div className="col-md-4">
             <div className="card m-auto" >
@@ -110,12 +110,12 @@ const PortfolioStyled = styled.div`
             color: #e1e1e1;
             font-weight: 800;
             
-            :hover{
-               /* transform: scale(1.1); */
+            /* :hover{
+               transform: scale(1.1);
                font-weight: 900;
                background-color: #00000096;
                padding: 5px;
-            }
+            } */
         }
         a{
             border-radius: 20px;
