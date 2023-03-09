@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Navbar from "./Navbar";
 import mymessIMG from './imges/Homepage.png'
-import RestaurantIMG from './imges/Restaurant.jpg'
+// import RestaurantIMG from './imges/Restaurant.jpg'
 
 const Portfolio = () => {
   return (
@@ -44,7 +44,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="col-md-4">
+          {/* <div className="col-md-4">
             <div className="card m-auto" >
               <img src={RestaurantIMG} className="card-img-top" alt="..." />
               <div className="card-body">
@@ -58,9 +58,9 @@ const Portfolio = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="col-md-4">
+          {/* <div className="col-md-4">
             <div className="card m-auto" >
               <img src={mymessIMG} className="card-img-top" alt="..." />
               <div className="card-body">
@@ -74,7 +74,7 @@ const Portfolio = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
           
         </div>
       </div>
@@ -85,7 +85,7 @@ const Portfolio = () => {
 export default Portfolio;
 
 const PortfolioStyled = styled.div`
-  /* height: 90vh; */
+  height: 90vh;
   background-color: #242323;
 
   .card{
