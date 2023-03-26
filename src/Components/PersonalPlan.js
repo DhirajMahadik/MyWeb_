@@ -18,6 +18,7 @@ export default function PersonalPlan () {
 
   .msg{
     display: flex;
+    padding: 50px 0;
     margin: auto;
   }
 

@@ -19,6 +19,7 @@ export default function LandingPagePlan() {
   .msg{
     display: flex;
     margin: auto;
+    padding: 50px 0;
   }
 
   .planInfo{
