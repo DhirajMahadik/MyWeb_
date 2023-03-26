@@ -309,7 +309,7 @@ export default function Home() {
             href="https://drive.google.com/file/d/1kLIymcbP9ipiTQzjiJWDoxLxJCzSaRAh/view?usp=drivesdk"
             target="blank"
           >
-            Hire Me
+            Hire Me / Resume 
           </a>
           <Link
             className="button-two mx-4"
