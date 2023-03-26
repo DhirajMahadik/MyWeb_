@@ -88,6 +88,10 @@ const PortfolioStyled = styled.div`
   height: 90vh;
   background-color: #242323;
 
+  @media screen and (max-width: 765px) {
+  height: 100%;
+}
+
   .card{
     background-color: #000;
     width: 20rem;
