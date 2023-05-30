@@ -43,7 +43,7 @@ export default function Home() {
       font-size: 20px;
     }
   `;
-{/*
+/*
   const Service = styled.div`
     background: #101010;
     width: 100%;
@@ -131,7 +131,7 @@ export default function Home() {
       }
     }
   `;
-*/}
+*/
   const ContactStyled = styled.div`
     width: 100%;
     height: 160px;
