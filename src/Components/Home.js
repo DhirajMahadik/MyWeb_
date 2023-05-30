@@ -238,7 +238,7 @@ export default function Home() {
         </div>
       </ContainerFuild>
 
-      {/* <!-----service section start-----------> */}
+      {/* <!-----service section start-----------> 
       <Service className="service" id="service" >
         <div className="title" >
           <h2>Services</h2>
@@ -294,6 +294,7 @@ export default function Home() {
           </div>
         </div>
       </Service>
+      */}
       {/* <!------Skills------> */}
                 <div id="skills">
                 <Skliss  />
