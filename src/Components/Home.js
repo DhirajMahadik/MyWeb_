@@ -307,7 +307,7 @@ export default function Home() {
         <div className="d-flex ">
           <a
             className="button-two mx-4"
-            href="https://drive.google.com/file/d/1kLIymcbP9ipiTQzjiJWDoxLxJCzSaRAh/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1XaxJQj2wxhyR8ww03pJnXCMpJtWOdRlN/view?usp=drivesdk"
             target="blank"
           >
             Hire Me / Resume 
