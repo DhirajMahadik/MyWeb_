@@ -228,7 +228,7 @@ export default function Home() {
           <h1 id="HeadingH1">
             Dhiraj <span>Mahadik</span>
           </h1>
-          <h3 id="HomeH3">I'am a Web Developer.</h3>
+          <h3 id="HomeH3">I'am a MERN Stack Developer.</h3>
           {/* <div className="newslatter">
                         <form name='form'>
                             <input type="email" name="email" id="mail" placeholder="Enter Your Email" required="required" />
