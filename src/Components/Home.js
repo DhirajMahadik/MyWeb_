@@ -43,7 +43,7 @@ export default function Home() {
       font-size: 20px;
     }
   `;
-
+/*
   const Service = styled.div`
     background: #101010;
     width: 100%;
@@ -131,7 +131,7 @@ export default function Home() {
       }
     }
   `;
-
+*/
   const ContactStyled = styled.div`
     width: 100%;
     height: 160px;
@@ -238,7 +238,7 @@ export default function Home() {
         </div>
       </ContainerFuild>
 
-      {/* <!-----service section start-----------> */}
+      {/* <!-----service section start-----------> 
       <Service className="service" id="service" >
         <div className="title" >
           <h2>Services</h2>
@@ -294,6 +294,7 @@ export default function Home() {
           </div>
         </div>
       </Service>
+      */}
       {/* <!------Skills------> */}
                 <div id="skills">
                 <Skliss  />
@@ -306,10 +307,10 @@ export default function Home() {
         <div className="d-flex ">
           <a
             className="button-two mx-4"
-            href="https://drive.google.com/file/d/1xTKynctaA3PkkamMroRiab1Iebjvh__r/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1z6PpjkCLoZN0Ytwf7CcgZI5eWJrGp_xD/view?usp=share_link"
             target="blank"
           >
-            Hire Me
+            Hire Me / Resume 
           </a>
           <Link
             className="button-two mx-4"
