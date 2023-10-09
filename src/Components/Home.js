@@ -228,7 +228,7 @@ export default function Home() {
           <h1 id="HeadingH1">
             Dhiraj <span>Mahadik</span>
           </h1>
-          <h3 id="HomeH3">I'am a Web Developer.</h3>
+          <h3 id="HomeH3">I'am a MERN Stack Developer.</h3>
           {/* <div className="newslatter">
                         <form name='form'>
                             <input type="email" name="email" id="mail" placeholder="Enter Your Email" required="required" />
@@ -306,7 +306,7 @@ export default function Home() {
         <div className="d-flex ">
           <a
             className="button-two mx-4"
-            href="https://drive.google.com/file/d/1z6PpjkCLoZN0Ytwf7CcgZI5eWJrGp_xD/view?usp=share_link"
+            href="https://drive.google.com/file/d/1xTKynctaA3PkkamMroRiab1Iebjvh__r/view?usp=drive_link"
             target="blank"
           >
             Hire Me

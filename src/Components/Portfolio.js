@@ -3,13 +3,14 @@ import styled from "styled-components";
 import Navbar from "./Navbar";
 import mymessIMG from './imges/Homepage.png'
 import digitalDiary from './imges/digitalDiary.png'
+import ReduxImg from './imges/apiswithredux.jpg'
 
 const Portfolio = () => {
   return (
     <PortfolioStyled>
       <Navbar />
       <div className="container py-5">
-        <div className="row g-3 py-5">
+        <div className="row  g-3 py-5">
           <div className="">
             <h3 className="text-warning text-center">PROJECTS</h3>
           </div>
@@ -48,9 +49,9 @@ const Portfolio = () => {
             <div className="card m-auto" >
               <img src={digitalDiary} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Digital Diary </h5>
+                <h5 className="card-title">Task Management Web App </h5>
                 <p className="card-text">
-                 <strong>Currently working on this project.</strong> 
+                 <strong>Implemented a task manegement web app to keep notes and tasks</strong> 
                 </p>
                 <br/>
                 <a href="https://digitaldiary-bydhiraj.netlify.app/" target="_blank" rel="noreferrer" className="btn btn-sm btn-warning">
@@ -60,21 +61,22 @@ const Portfolio = () => {
             </div>
           </div>
 
-          {/* <div className="col-md-4">
+          <div className="col-md-4">
             <div className="card m-auto" >
-              <img src={mymessIMG} className="card-img-top" alt="..." />
+              <img src={ReduxImg} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Mess Portal</h5>
+                <h5 className="card-title">API calling through Redux Toolkit</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Complete CRUD APIs integration with Redux Toolkit, Handling globle state. 
                 </p>
-                <a href="/" target="_blank" rel="noreferrer" className="btn btn-sm btn-warning">
+                <a href="/https://github.com/DhirajMahadik/apis-with-redux" target="_blank" rel="noreferrer" className="btn btn-sm btn-warning">
                 View Project
                 </a>
               </div>
             </div>
-          </div> */}
+          </div>
+
+          
           
         </div>
       </div>
@@ -85,8 +87,10 @@ const Portfolio = () => {
 export default Portfolio;
 
 const PortfolioStyled = styled.div`
-  height: 90vh;
+  /* height: 90vh; */
   background-color: #242323;
+
+ 
 
   @media screen and (max-width: 765px) {
   height: 100%;
@@ -97,7 +101,7 @@ const PortfolioStyled = styled.div`
     width: 20rem;
     img{
         width: 20rem;
-        height: 200px;
+        height: 250px;
         opacity: 0.5;
     }
     .card-body{
